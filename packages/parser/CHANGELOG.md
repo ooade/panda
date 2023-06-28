@@ -1,5 +1,17 @@
 # @pandacss/parser
 
+## 0.5.1
+
+### Patch Changes
+
+- 09ebaf2e: Fix svelte parsing when using Typescript or `<script context=module>` or multiple `<script>`s
+- Updated dependencies [6f03ead3]
+  - @pandacss/extractor@0.5.1
+  - @pandacss/types@0.5.1
+  - @pandacss/is-valid-prop@0.5.1
+  - @pandacss/logger@0.5.1
+  - @pandacss/shared@0.5.1
+
 ## 0.5.0
 
 ### Minor Changes

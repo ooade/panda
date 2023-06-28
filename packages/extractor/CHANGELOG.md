@@ -1,5 +1,15 @@
 # @pandacss/extractor
 
+## 0.5.1
+
+### Patch Changes
+
+- 6f03ead3: Fix issue where operation tokens did not get extracted.
+
+  This means that values such as `1 / 2`, `3*5`, `2 **4`, `8- 1` will now properly be extracted
+
+  - @pandacss/logger@0.5.1
+
 ## 0.5.0
 
 ### Minor Changes
